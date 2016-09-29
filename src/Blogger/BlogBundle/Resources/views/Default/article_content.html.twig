@@ -6,6 +6,10 @@
             <h2>{{ article.title }}</h2>
         {% endif %}
             <time>{{ article.date|date('d M Y') }}</time>
+
+        <div class="admin-article">
+            <a href="{{ path("BloggerBlogBundle_edit", { id: article.id}) }}" title= "Editer cet article">Editer</a>
+        </div>
     </header>
 </article>
 

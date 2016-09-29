@@ -37,6 +37,24 @@ class DefaultController extends Controller
         ));
     }
 
+    public function editAction(Article $article, Request $request)
+    {
+        $form = $this->get('form.factory')->create(new ArticleType(), $article);
+
+        if ($form->handleRequest($request)->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($article);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl("BloggerBlogBundle_homepage"));
+        }
+
+        return $this->render("BloggerBlogBundle:Default:edit.html.twig", array(
+            'id'    => $article->getId(),
+            'form'  => $form->createView(),
+        ));
+    }
+
     public function articleAction($id){
 
         $em = $this->getDoctrine()->getManager();

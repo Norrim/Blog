@@ -12,3 +12,9 @@ BloggerBlogBundle_article:
     defaults: { _controller: BloggerBlogBundle:Default:article }
     requirements:
         id: \d+
+
+BloggerBlogBundle_edit:
+    path:  /edit/{id}
+    defaults: { _controller: BloggerBlogBundle:Default:edit }
+    requirements:
+        id: \d+
