@@ -55,6 +55,16 @@ class DefaultController extends Controller
         ));
     }
 
+    public function deleteAction(Article $article)
+    {
+        $em = $this->getDoctrine()->getEntityManager();
+        $em->remove ($article);
+        $em->flush();
+
+        return $this->redirect($this->generateUrl("BloggerBlogBundle_homepage"));
+
+    }
+
     public function articleAction($id){
 
         $em = $this->getDoctrine()->getManager();

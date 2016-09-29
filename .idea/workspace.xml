@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26436782" vertical-offset="730" max-vertical-offset="1600">
-              <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+            <state vertical-scroll-proportion="-26.538462" vertical-offset="610" max-vertical-offset="1800">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="e#49#106#0#PHP" expanded="true" />
               </folding>
@@ -37,34 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Repository/ArticleRepository.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.923077" vertical-offset="0" max-vertical-offset="560">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.769231" vertical-offset="0" max-vertical-offset="400">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8461537" vertical-offset="0" max-vertical-offset="360">
-              <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-              <folding>
-                <marker date="1475140625646" expanded="true" signature="34:362" placeholder="{% block body ...%}" />
-                <marker date="1475140625646" expanded="true" signature="190:346" placeholder="{%  for article in articles ...%}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_content.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article_content.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/article_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.384615" vertical-offset="0" max-vertical-offset="520">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.3218391" vertical-offset="0" max-vertical-offset="870">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -90,11 +77,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.307693" vertical-offset="0" max-vertical-offset="520">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="720">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -103,9 +100,14 @@
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1475141835784" expanded="true" signature="362:504" placeholder="BloggerBlogBundle_edit:" />
+                <marker date="1475141835784" expanded="true" signature="474:504" placeholder="requirements:" />
+                <marker date="1475141835784" expanded="true" signature="505:653" placeholder="BloggerBlogBundle_delete:" />
+                <marker date="1475141835784" expanded="true" signature="623:653" placeholder="requirements:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +140,6 @@
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Blogger/UserBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Blogger/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
@@ -147,12 +148,13 @@
         <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Repository/ArticleRepository.php" />
         <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/article.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/article_content.html.twig" />
         <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/article_content.html.twig" />
       </list>
     </option>
   </component>
@@ -544,7 +546,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -887,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Form/ArticleType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.461538" vertical-offset="0" max-vertical-offset="900">
@@ -921,29 +915,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.307693" vertical-offset="0" max-vertical-offset="520">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8461537" vertical-offset="0" max-vertical-offset="360">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-          <folding>
-            <marker date="1475140625646" expanded="true" signature="34:362" placeholder="{% block body ...%}" />
-            <marker date="1475140625646" expanded="true" signature="190:346" placeholder="{%  for article in articles ...%}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/add.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="240">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.538462" vertical-offset="610" max-vertical-offset="1800">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1475141835784" expanded="true" signature="362:504" placeholder="BloggerBlogBundle_edit:" />
+            <marker date="1475141835784" expanded="true" signature="474:504" placeholder="requirements:" />
+            <marker date="1475141835784" expanded="true" signature="505:653" placeholder="BloggerBlogBundle_delete:" />
+            <marker date="1475141835784" expanded="true" signature="623:653" placeholder="requirements:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="720">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -956,10 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.769231" vertical-offset="0" max-vertical-offset="400">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -974,19 +988,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Default/article_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.384615" vertical-offset="0" max-vertical-offset="520">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.3218391" vertical-offset="0" max-vertical-offset="870">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blogger/BlogBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26436782" vertical-offset="730" max-vertical-offset="1600">
-          <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
-          <folding>
-            <element signature="e#49#106#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -5,11 +5,15 @@
         {% else %}
             <h2>{{ article.title }}</h2>
         {% endif %}
-            <time>{{ article.date|date('d M Y') }}</time>
 
-        <div class="admin-article">
-            <a href="{{ path("BloggerBlogBundle_edit", { id: article.id}) }}" title= "Editer cet article">Editer</a>
-        </div>
+        {% if is_granted("ROLE_ADMIN") %}
+            <div class="admin-article">
+                <a href="{{ path("BloggerBlogBundle_edit", { id: article.id}) }}" title= "Editer cet article">Editer</a>
+                <a href="{{ path("BloggerBlogBundle_delete", { id: article.id}) }}" title= "Supprimer cet article">Supprimer</a>
+            </div>
+        {% endif %}
+        
+            <time>{{ article.date|date('d M Y') }}</time>
     </header>
 </article>
 

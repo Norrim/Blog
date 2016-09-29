@@ -3,7 +3,9 @@
 {% block body %}
 
     <h1>Liste des articles</h1>
-    <a href="{{ path("BloggerBlogBundle_add") }}" title= "Ajouter un article">Ajouter un article</a>
+    {% if is_granted("ROLE_ADMIN") %}
+        <a href="{{ path("BloggerBlogBundle_add") }}" title= "Ajouter un article">Ajouter un article</a>
+    {% endif %}
 
     {%  for article in articles %}
         {% include "BloggerBlogBundle:Default:article_content.html.twig" with {'link': true} %}
