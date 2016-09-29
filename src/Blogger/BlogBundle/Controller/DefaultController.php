@@ -11,7 +11,11 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('BloggerBlogBundle:Default:index.html.twig');
+        $articles = $this->getDoctrine()->getEntityManager()->getRepository('BloggerBlogBundle:Article')->getListOrderByDate();
+
+        return $this->render('BloggerBlogBundle:Default:index.html.twig', array(
+            'articles' => $articles,
+        ));
     }
 
     public function addAction(Request $request)
