@@ -6,3 +6,9 @@ BloggerBlogBundle_homepage:
 BloggerBlogBundle_add:
     path:  /add
     defaults: { _controller: BloggerBlogBundle:Default:add }
+
+BloggerBlogBundle_article:
+    path:  /article/{id}
+    defaults: { _controller: BloggerBlogBundle:Default:article }
+    requirements:
+        id: \d+

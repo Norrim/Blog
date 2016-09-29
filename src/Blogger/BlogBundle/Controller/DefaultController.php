@@ -36,4 +36,21 @@ class DefaultController extends Controller
             'form' => $form->createView(),
         ));
     }
+
+    public function articleAction($id){
+
+        $em = $this->getDoctrine()->getManager();
+
+        $article = $em->getRepository('BloggerBlogBundle:Article')->find($id);
+
+        if (null === $article) {
+            throw new NotFoundHttpException("L'article d'id ".$id." n'existe pas.");
+        }
+
+        return $this->render('BloggerBlogBundle:Default:article.html.twig', array(
+            'article'       => $article,
+        ));
+    }
+
+
 }

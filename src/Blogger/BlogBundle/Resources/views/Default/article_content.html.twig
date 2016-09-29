@@ -1,0 +1,17 @@
+<article>
+    <header>
+        {% if link %}
+            <h2><a href="{{ path("BloggerBlogBundle_article", { id: article.id}) }}" title="Voir {{ article.title }}"> {{ article.title }}</a></h2>
+        {% else %}
+            <h2>{{ article.title }}</h2>
+        {% endif %}
+            <time>{{ article.date|date('d M Y') }}</time>
+    </header>
+</article>
+
+<div class="content">
+    <img src="{{ article.image }}" alt="{{ article.title }}" height="120" width="200">
+    <p>
+        {{ article.content|nl2br }}
+    </p>
+</div>

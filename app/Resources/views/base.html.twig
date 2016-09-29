@@ -6,6 +6,13 @@
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
+
+    <header>
+        <ul>
+            <li><a href="{{ path("BloggerBlogBundle_homepage") }}" title= "Accueil">Accueil</a></li>
+        </ul>
+    </header>
+
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
