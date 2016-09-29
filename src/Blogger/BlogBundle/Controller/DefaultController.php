@@ -4,8 +4,10 @@ namespace Blogger\BlogBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Blogger\BlogBundle\Form\ArticleType;
+use Blogger\BlogBundle\Form\CommentType;
 use Symfony\Component\HttpFoundation\Request;
 use Blogger\BlogBundle\Entity\Article;
+use Blogger\BlogBundle\Entity\Comment;
 
 class DefaultController extends Controller
 {
@@ -75,8 +77,33 @@ class DefaultController extends Controller
             throw new NotFoundHttpException("L'article d'id ".$id." n'existe pas.");
         }
 
+        $listComments = $em
+            ->getRepository('BloggerBlogBundle:Comment')
+            ->findBy(array('article' => $article));
+
         return $this->render('BloggerBlogBundle:Default:article.html.twig', array(
             'article'       => $article,
+            'listComments'  => $listComments
+        ));
+    }
+
+    public function commentAction(Article $article, Request $request)
+    {
+        $comment = new Comment();
+        $form = $this->get('form.factory')->create(new CommentType(), $comment);
+        if ($form->handleRequest($request)->isValid()) {
+            $article->addComment($comment);
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($article);
+            $em->persist($comment);
+            $em->flush();
+
+            return $this->redirect($this->generateUrl("BloggerBlogBundle_homepage"));
+        }
+
+
+        return $this->render('BloggerBlogBundle:Comment:add.html.twig', array(
+            'form' => $form->createView(),
         ));
     }
 

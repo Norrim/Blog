@@ -2,4 +2,8 @@
 
 {% block body %}
     {% include "BloggerBlogBundle:Default:article_content.html.twig" with {'link': false} %}
+
+    <h2>Commentaires:</h2>
+    <a href="{{ path("BloggerBlogBundle_comment", { id: article.id}) }}" title= "Commenter cet article">Commentez</a>
+    {% include "BloggerBlogBundle:Comment:index.html.twig" %}
 {% endblock %}

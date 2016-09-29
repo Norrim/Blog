@@ -25,3 +25,8 @@ BloggerBlogBundle_delete:
     requirements:
         id: \d+
 
+BloggerBlogBundle_comment:
+    path:  /comment/{id}
+    defaults: { _controller: BloggerBlogBundle:Default:comment }
+    requirements:
+        id: \d+

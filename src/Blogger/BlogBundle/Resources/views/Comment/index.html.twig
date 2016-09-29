@@ -1,0 +1,10 @@
+{% for comment in listComments %}
+    <article>
+        <header>
+            <p>{{ comment.username }} le <time>{{ comment.date|date('d M Y') }}</time></p>
+        </header>
+        <p>{{ comment.content }}</p>
+    </article>
+{% else %}
+    <p>Il n'y a pas de commentaires pour cet article, soit le premier à répondre.</p>
+{% endfor %}
